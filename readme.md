@@ -10,7 +10,7 @@ Fork from <https://github.com/kevva/download>, changed the output data.
 ## Install
 
 ```
-$ npm install download
+$ npm install node-save-file
 ```
 
 
@@ -18,7 +18,7 @@ $ npm install download
 
 ```js
 const fs = require('fs');
-const download = require('download');
+const download = require('node-save-file');
 
 (async () => {
 	await download('http://unicorn.com/foo.jpg', 'dist');
