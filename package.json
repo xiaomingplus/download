@@ -1,9 +1,9 @@
 {
-	"name": "download",
-	"version": "7.1.0",
-	"description": "Download and extract files",
+	"name": "node-save-files",
+	"version": "1.0.0",
+	"description": "Download save and extract files",
 	"license": "MIT",
-	"repository": "kevva/download",
+	"repository": "xiaomingplus/download",
 	"author": {
 		"email": "kevinmartensson@gmail.com",
 		"name": "Kevin Mårtensson",

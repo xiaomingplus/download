@@ -2,6 +2,8 @@
 
 > Download and extract files
 
+Fork from <https://github.com/kevva/download>, changed the output data.
+
 *See [download-cli](https://github.com/kevva/download-cli) for the command-line version.*
 
 
@@ -41,7 +43,7 @@ To work with proxies, read the [`got documentation`](https://github.com/sindreso
 
 ### download(url, destination?, options?)
 
-Returns both a `Promise<Buffer>` and a [Duplex stream](https://nodejs.org/api/stream.html#stream_class_stream_duplex) with [additional events](https://github.com/sindresorhus/got#streams-1).
+Returns both a `Promise<{data:Buffer,fielpath:string}>` and a [Duplex stream](https://nodejs.org/api/stream.html#stream_class_stream_duplex) with [additional events](https://github.com/sindresorhus/got#streams-1).
 
 #### url
 
